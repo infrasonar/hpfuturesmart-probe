@@ -1,3 +1,4 @@
+import time
 from asyncsnmplib.mib.mib_index import MIB_INDEX
 from libprobe.asset import Asset
 from libprobe.exceptions import CheckException
@@ -11,6 +12,12 @@ QUERIES = (
     (MIB_INDEX['FUTURESMART-MIB']['settings-system'], False),
     (MIB_INDEX['FUTURESMART-MIB']['status-system'], False),
 )
+
+def fmt_install_date(value: str):
+    try:
+        return time.strptime(value[:8], '%Y%m%d%H%M')
+    except Exception:
+        return
 
 
 async def check_device(
@@ -30,5 +37,11 @@ async def check_device(
         item.pop('usage-instructions-line2', None)
         item.pop('usage-instructions-line3', None)
         item.pop('usage-instructions-line4', None)
+
+    for item in state.get('status-system', []):
+        install_date = item.get('install_date')
+        if install_date is not None:
+            item['install_date'] = fmt_install_date(install_date)
+
 
     return state
