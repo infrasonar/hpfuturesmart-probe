@@ -1,5 +1,6 @@
 from asyncsnmplib.mib.mib_index import MIB_INDEX
 from libprobe.asset import Asset
+from libprobe.exceptions import CheckException
 from ..snmpclient import get_snmp_client
 from ..snmpquery import snmpquery
 
@@ -17,4 +18,8 @@ async def check_device(
 
     snmp = get_snmp_client(asset, asset_config, check_config)
     state = await snmpquery(snmp, QUERIES)
+
+    if not any(state.values()):
+        raise CheckException('no data found')
+
     return state
