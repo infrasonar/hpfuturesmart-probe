@@ -1,0 +1,10713 @@
+{
+  "IMPORTS": [],
+  "hp": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      1,
+      3,
+      6,
+      1,
+      4,
+      1,
+      11
+    ]
+  },
+  "dm": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "hp",
+      2,
+      3,
+      9,
+      4,
+      2
+    ]
+  },
+  "DisplayString": {
+    "tp": "OCTET STRING"
+  },
+  "device": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "dm",
+      1
+    ]
+  },
+  "device-system": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device",
+      1
+    ]
+  },
+  "status-system": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      2
+    ]
+  },
+  "test": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      5
+    ]
+  },
+  "job": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      6
+    ]
+  },
+  "job-info": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "job",
+      5
+    ]
+  },
+  "job-info-accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "job-info",
+      28
+    ]
+  },
+  "processing-subsystem": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device",
+      3
+    ]
+  },
+  "pml": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "processing-subsystem",
+      4
+    ]
+  },
+  "accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      16
+    ]
+  },
+  "printer-accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "accounting",
+      1
+    ]
+  },
+  "printed-media-usage": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "printer-accounting",
+      1
+    ]
+  },
+  "printer-color-accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "accounting",
+      3
+    ]
+  },
+  "printed-media-color-usage": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "printer-color-accounting",
+      1
+    ]
+  },
+  "printed-modes-accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "accounting",
+      4
+    ]
+  },
+  "printed-modes-usage": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "printed-modes-accounting",
+      1
+    ]
+  },
+  "source-tray-accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "accounting",
+      5
+    ]
+  },
+  "source-tray-usage": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "source-tray-accounting",
+      1
+    ]
+  },
+  "destination-bin-accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "accounting",
+      6
+    ]
+  },
+  "destination-bin-usage": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "destination-bin-accounting",
+      1
+    ]
+  },
+  "destination-subsystem": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device",
+      4
+    ]
+  },
+  "print-engine": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "destination-subsystem",
+      1
+    ]
+  },
+  "print-media": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      8
+    ]
+  },
+  "media-size": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-media",
+      5
+    ]
+  },
+  "background-message": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "status-system",
+      37
+    ]
+  },
+  "background-message1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "background-message",
+      1
+    ]
+  },
+  "background-message2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "background-message",
+      2
+    ]
+  },
+  "control-panel-display": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "status-system",
+      65
+    ]
+  },
+  "settings-system": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      1
+    ]
+  },
+  "id": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      3
+    ]
+  },
+  "interface": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      4
+    ]
+  },
+  "imaging": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      6
+    ]
+  },
+  "simm": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "interface",
+      1
+    ]
+  },
+  "simm1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm",
+      1
+    ]
+  },
+  "simm1-bank": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm1",
+      6
+    ]
+  },
+  "simm1-bank1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm1-bank",
+      1
+    ]
+  },
+  "simm1-bank2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm1-bank",
+      2
+    ]
+  },
+  "simm2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm",
+      2
+    ]
+  },
+  "simm2-bank": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm2",
+      6
+    ]
+  },
+  "simm2-bank1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm2-bank",
+      1
+    ]
+  },
+  "simm2-bank2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "simm2-bank",
+      2
+    ]
+  },
+  "settings-job": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "job",
+      1
+    ]
+  },
+  "operating-system": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      19
+    ]
+  },
+  "phd": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "interface",
+      5
+    ]
+  },
+  "phd1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "phd",
+      1
+    ]
+  },
+  "phd2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "phd",
+      2
+    ]
+  },
+  "phd3": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "phd",
+      3
+    ]
+  },
+  "phd4": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "phd",
+      4
+    ]
+  },
+  "phd5": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "phd",
+      5
+    ]
+  },
+  "phd6": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "phd",
+      6
+    ]
+  },
+  "pdl": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "processing-subsystem",
+      3
+    ]
+  },
+  "settings-pdl": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "pdl",
+      1
+    ]
+  },
+  "status-pdl": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "pdl",
+      2
+    ]
+  },
+  "errorlog": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      11
+    ]
+  },
+  "error1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      1
+    ]
+  },
+  "error2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      2
+    ]
+  },
+  "error3": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      3
+    ]
+  },
+  "error4": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      4
+    ]
+  },
+  "error5": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      5
+    ]
+  },
+  "error6": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      6
+    ]
+  },
+  "error7": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      7
+    ]
+  },
+  "error8": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      8
+    ]
+  },
+  "error9": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      9
+    ]
+  },
+  "error10": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      10
+    ]
+  },
+  "error11": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      11
+    ]
+  },
+  "error12": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      12
+    ]
+  },
+  "error13": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      13
+    ]
+  },
+  "error14": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      14
+    ]
+  },
+  "error15": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      15
+    ]
+  },
+  "error16": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      16
+    ]
+  },
+  "error17": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      17
+    ]
+  },
+  "error18": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      18
+    ]
+  },
+  "error19": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      19
+    ]
+  },
+  "error20": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      20
+    ]
+  },
+  "error21": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      21
+    ]
+  },
+  "error22": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      22
+    ]
+  },
+  "error23": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      23
+    ]
+  },
+  "error24": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      24
+    ]
+  },
+  "error25": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      25
+    ]
+  },
+  "error26": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      26
+    ]
+  },
+  "error27": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      27
+    ]
+  },
+  "error28": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      28
+    ]
+  },
+  "error29": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      29
+    ]
+  },
+  "error30": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      30
+    ]
+  },
+  "error31": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      31
+    ]
+  },
+  "error32": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      32
+    ]
+  },
+  "error33": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      33
+    ]
+  },
+  "error34": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      34
+    ]
+  },
+  "error35": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      35
+    ]
+  },
+  "error36": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      36
+    ]
+  },
+  "error37": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      37
+    ]
+  },
+  "error38": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      38
+    ]
+  },
+  "error39": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      39
+    ]
+  },
+  "error40": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      40
+    ]
+  },
+  "error41": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      41
+    ]
+  },
+  "error42": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      42
+    ]
+  },
+  "error43": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      43
+    ]
+  },
+  "error44": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      44
+    ]
+  },
+  "error45": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      45
+    ]
+  },
+  "error46": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      46
+    ]
+  },
+  "error47": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      47
+    ]
+  },
+  "error48": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      48
+    ]
+  },
+  "error49": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      49
+    ]
+  },
+  "error50": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      50
+    ]
+  },
+  "error51": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      51
+    ]
+  },
+  "error52": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      52
+    ]
+  },
+  "error53": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      53
+    ]
+  },
+  "error54": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      54
+    ]
+  },
+  "error55": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      55
+    ]
+  },
+  "error56": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      56
+    ]
+  },
+  "error57": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      57
+    ]
+  },
+  "error58": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      58
+    ]
+  },
+  "error59": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      59
+    ]
+  },
+  "error60": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      60
+    ]
+  },
+  "error61": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      61
+    ]
+  },
+  "error62": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      62
+    ]
+  },
+  "error63": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      63
+    ]
+  },
+  "error64": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      64
+    ]
+  },
+  "error65": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      65
+    ]
+  },
+  "error66": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      66
+    ]
+  },
+  "error67": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      67
+    ]
+  },
+  "error68": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      68
+    ]
+  },
+  "error69": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      69
+    ]
+  },
+  "error70": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      70
+    ]
+  },
+  "error71": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      71
+    ]
+  },
+  "error72": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      72
+    ]
+  },
+  "error73": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      73
+    ]
+  },
+  "error74": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      74
+    ]
+  },
+  "error75": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      75
+    ]
+  },
+  "error76": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      76
+    ]
+  },
+  "error77": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      77
+    ]
+  },
+  "error78": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      78
+    ]
+  },
+  "error79": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      79
+    ]
+  },
+  "error80": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      80
+    ]
+  },
+  "error81": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      81
+    ]
+  },
+  "error82": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      82
+    ]
+  },
+  "error83": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      83
+    ]
+  },
+  "error84": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      84
+    ]
+  },
+  "error85": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      85
+    ]
+  },
+  "error86": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      86
+    ]
+  },
+  "error87": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      87
+    ]
+  },
+  "error88": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      88
+    ]
+  },
+  "error89": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      89
+    ]
+  },
+  "error90": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "errorlog",
+      90
+    ]
+  },
+  "channel": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device",
+      6
+    ]
+  },
+  "display": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "status-system",
+      20
+    ]
+  },
+  "display-status": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "display",
+      1
+    ]
+  },
+  "web-server": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "interface",
+      6
+    ]
+  },
+  "settings-web-server": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "web-server",
+      1
+    ]
+  },
+  "pdl-postscript": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "pdl",
+      4
+    ]
+  },
+  "webserver-proc-sub": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "processing-subsystem",
+      9
+    ]
+  },
+  "settings-webserver": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "webserver-proc-sub",
+      1
+    ]
+  },
+  "settings-prt-eng": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      1
+    ]
+  },
+  "intray": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      3
+    ]
+  },
+  "settings-intray": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "intray",
+      1
+    ]
+  },
+  "ph": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      7
+    ]
+  },
+  "settings-ph": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "ph",
+      1
+    ]
+  },
+  "pdl-pcl": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "pdl",
+      3
+    ]
+  },
+  "pdl-pdf": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "pdl",
+      15
+    ]
+  },
+  "active-print-jobs": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "job",
+      2
+    ]
+  },
+  "job-being-parsed": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "active-print-jobs",
+      1
+    ]
+  },
+  "job-info-attribute": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "job-info",
+      23
+    ]
+  },
+  "held-job": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "job",
+      7
+    ]
+  },
+  "held-job-info": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "held-job",
+      1
+    ]
+  },
+  "held-job-control": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "held-job",
+      2
+    ]
+  },
+  "source-subsystem": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device",
+      2
+    ]
+  },
+  "spooler": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "source-subsystem",
+      4
+    ]
+  },
+  "settings-spooler": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "spooler",
+      1
+    ]
+  },
+  "pjl": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "processing-subsystem",
+      5
+    ]
+  },
+  "mio": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "interface",
+      3
+    ]
+  },
+  "mio1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "mio",
+      1
+    ]
+  },
+  "mio4": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "mio",
+      4
+    ]
+  },
+  "usb-interface": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "interface",
+      9
+    ]
+  },
+  "usb": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "usb-interface",
+      2
+    ]
+  },
+  "io": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "source-subsystem",
+      1
+    ]
+  },
+  "settings-io": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "io",
+      1
+    ]
+  },
+  "ports": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "io",
+      3
+    ]
+  },
+  "port1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "ports",
+      1
+    ]
+  },
+  "foreign-interface": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "interface",
+      8
+    ]
+  },
+  "fax-proc-sub": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "processing-subsystem",
+      7
+    ]
+  },
+  "settings-fax-proc-sub": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "fax-proc-sub",
+      1
+    ]
+  },
+  "status-fax-proc-sub": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "fax-proc-sub",
+      2
+    ]
+  },
+  "tables": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device",
+      7
+    ]
+  },
+  "remote-procedure-call": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      13
+    ]
+  },
+  "settings-rpc": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "remote-procedure-call",
+      1
+    ]
+  },
+  "status-rpc": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "remote-procedure-call",
+      2
+    ]
+  },
+  "file-system": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      10
+    ]
+  },
+  "settings-file-system": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "file-system",
+      1
+    ]
+  },
+  "resource-manager": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      12
+    ]
+  },
+  "mass-storage-resources": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "resource-manager",
+      3
+    ]
+  },
+  "mass-storage-block-driver": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      15
+    ]
+  },
+  "settings-mass-storage-bd": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "mass-storage-block-driver",
+      1
+    ]
+  },
+  "status-mass-storage-bd": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "mass-storage-block-driver",
+      2
+    ]
+  },
+  "settings-print-media": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-media",
+      1
+    ]
+  },
+  "media-info": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-media",
+      3
+    ]
+  },
+  "media1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      1
+    ]
+  },
+  "media2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      2
+    ]
+  },
+  "media3": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      3
+    ]
+  },
+  "media4": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      4
+    ]
+  },
+  "media5": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      5
+    ]
+  },
+  "media6": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      6
+    ]
+  },
+  "media7": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      7
+    ]
+  },
+  "media8": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      8
+    ]
+  },
+  "media9": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      9
+    ]
+  },
+  "media10": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      10
+    ]
+  },
+  "media11": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      11
+    ]
+  },
+  "media12": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      12
+    ]
+  },
+  "media13": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      13
+    ]
+  },
+  "media14": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      14
+    ]
+  },
+  "media15": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      15
+    ]
+  },
+  "media16": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      16
+    ]
+  },
+  "media17": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      17
+    ]
+  },
+  "media18": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      18
+    ]
+  },
+  "media19": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      19
+    ]
+  },
+  "media20": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      20
+    ]
+  },
+  "media21": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      21
+    ]
+  },
+  "media22": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      22
+    ]
+  },
+  "media23": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      23
+    ]
+  },
+  "media24": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      24
+    ]
+  },
+  "media25": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      25
+    ]
+  },
+  "media26": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      26
+    ]
+  },
+  "media27": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      27
+    ]
+  },
+  "media28": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      28
+    ]
+  },
+  "media29": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      29
+    ]
+  },
+  "media30": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      30
+    ]
+  },
+  "media31": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      31
+    ]
+  },
+  "media32": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      32
+    ]
+  },
+  "media33": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      33
+    ]
+  },
+  "media34": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      34
+    ]
+  },
+  "media35": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      35
+    ]
+  },
+  "media36": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      36
+    ]
+  },
+  "media37": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      37
+    ]
+  },
+  "media38": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "media-info",
+      38
+    ]
+  },
+  "media-types": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-media",
+      8
+    ]
+  },
+  "media-sizes": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      15
+    ]
+  },
+  "device-configure": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "settings-system",
+      32
+    ]
+  },
+  "marking-agent-density": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "settings-prt-eng",
+      9
+    ]
+  },
+  "status-prt-eng": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      2
+    ]
+  },
+  "printer-calibration-dhalf": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "status-prt-eng",
+      37
+    ]
+  },
+  "printer-cal-dhalf-data": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "printer-calibration-dhalf",
+      3
+    ]
+  },
+  "printer-cal-grayaxis": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "printer-calibration-dhalf",
+      6
+    ]
+  },
+  "printer-cal-grayaxis-data": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "printer-calibration-dhalf",
+      7
+    ]
+  },
+  "printer-calibration-cpr": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "status-prt-eng",
+      38
+    ]
+  },
+  "intrays": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "intray",
+      3
+    ]
+  },
+  "intray1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "intrays",
+      1
+    ]
+  },
+  "intray2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "intrays",
+      2
+    ]
+  },
+  "intray3": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "intrays",
+      3
+    ]
+  },
+  "intray5": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "intrays",
+      5
+    ]
+  },
+  "intray6": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "intrays",
+      6
+    ]
+  },
+  "outbin": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      4
+    ]
+  },
+  "settings-outbin": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "outbin",
+      1
+    ]
+  },
+  "outbins": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "outbin",
+      3
+    ]
+  },
+  "outbin1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "outbins",
+      1
+    ]
+  },
+  "marking-agent": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      5
+    ]
+  },
+  "settings-marking-agent": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "marking-agent",
+      1
+    ]
+  },
+  "ph-devices": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "ph",
+      3
+    ]
+  },
+  "ph2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "ph-devices",
+      2
+    ]
+  },
+  "media-modes": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-media",
+      4
+    ]
+  },
+  "media-counts": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-media",
+      7
+    ]
+  },
+  "consumables": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "print-engine",
+      10
+    ]
+  },
+  "consumables-1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "consumables",
+      1
+    ]
+  },
+  "consumable-status": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "consumables-1",
+      1
+    ]
+  },
+  "consumable-string": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "consumables",
+      8
+    ]
+  },
+  "consumables-status": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "consumables",
+      5
+    ]
+  },
+  "consumables-life": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "consumables-status",
+      1
+    ]
+  },
+  "firmware-download": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      18
+    ]
+  },
+  "upgradable-devices": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      20
+    ]
+  },
+  "warninglog": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      22
+    ]
+  },
+  "warning1": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      1
+    ]
+  },
+  "warning2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      2
+    ]
+  },
+  "warning3": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      3
+    ]
+  },
+  "warning4": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      4
+    ]
+  },
+  "warning5": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      5
+    ]
+  },
+  "warning6": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      6
+    ]
+  },
+  "warning7": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      7
+    ]
+  },
+  "warning8": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      8
+    ]
+  },
+  "warning9": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      9
+    ]
+  },
+  "warning10": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      10
+    ]
+  },
+  "warning11": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      11
+    ]
+  },
+  "warning12": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      12
+    ]
+  },
+  "warning13": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      13
+    ]
+  },
+  "warning14": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      14
+    ]
+  },
+  "warning15": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      15
+    ]
+  },
+  "warning16": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      16
+    ]
+  },
+  "warning17": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      17
+    ]
+  },
+  "warning18": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      18
+    ]
+  },
+  "warning19": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      19
+    ]
+  },
+  "warning20": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      20
+    ]
+  },
+  "warning21": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      21
+    ]
+  },
+  "warning22": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      22
+    ]
+  },
+  "warning23": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      23
+    ]
+  },
+  "warning24": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      24
+    ]
+  },
+  "warning25": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      25
+    ]
+  },
+  "warning26": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      26
+    ]
+  },
+  "warning27": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      27
+    ]
+  },
+  "warning28": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      28
+    ]
+  },
+  "warning29": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      29
+    ]
+  },
+  "warning30": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      30
+    ]
+  },
+  "warning31": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      31
+    ]
+  },
+  "warning32": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      32
+    ]
+  },
+  "warning33": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      33
+    ]
+  },
+  "warning34": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      34
+    ]
+  },
+  "warning35": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      35
+    ]
+  },
+  "warning36": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      36
+    ]
+  },
+  "warning37": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      37
+    ]
+  },
+  "warning38": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      38
+    ]
+  },
+  "warning39": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      39
+    ]
+  },
+  "warning40": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      40
+    ]
+  },
+  "warning41": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      41
+    ]
+  },
+  "warning42": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      42
+    ]
+  },
+  "warning43": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      43
+    ]
+  },
+  "warning44": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      44
+    ]
+  },
+  "warning45": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      45
+    ]
+  },
+  "warning46": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      46
+    ]
+  },
+  "warning47": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      47
+    ]
+  },
+  "warning48": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      48
+    ]
+  },
+  "warning49": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      49
+    ]
+  },
+  "warning50": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "warninglog",
+      50
+    ]
+  },
+  "security": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      23
+    ]
+  },
+  "settings-security": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "security",
+      1
+    ]
+  },
+  "scanner": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "source-subsystem",
+      2
+    ]
+  },
+  "settings-scanner": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "scanner",
+      1
+    ]
+  },
+  "status-scanner": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "scanner",
+      2
+    ]
+  },
+  "print-meter-usage": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "printer-accounting",
+      14
+    ]
+  },
+  "scanner-accounting": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "accounting",
+      2
+    ]
+  },
+  "scanned-media-usage": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "scanner-accounting",
+      1
+    ]
+  },
+  "settings-system2": {
+    "tp": "OBJECT IDENTIFIER",
+    "value": [
+      "device-system",
+      25
+    ]
+  },
+  "date-and-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      17
+    ]
+  },
+  "automatic-daylight-savings": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      100
+    ]
+  },
+  "daylight-savings-start": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      101
+    ]
+  },
+  "daylight-savings-end": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      102
+    ]
+  },
+  "daylight-savings-offset": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      103
+    ]
+  },
+  "daylight-savings-reset": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eResetToDefault",
+        "2": "eCustomized"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      104
+    ]
+  },
+  "rtc-time-zone": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eTzDateline",
+        "2": "eTzSamoa",
+        "3": "eTzHawaiian",
+        "4": "eTzAlaskan",
+        "5": "eTzPacific",
+        "6": "eTzUSMountain",
+        "7": "eTzMexico2",
+        "8": "eTzMountain",
+        "9": "eTzCentralAmerica",
+        "10": "eTzCentral",
+        "11": "eTzMexico",
+        "12": "eTzCanadaCentral",
+        "13": "eTzSAPacific",
+        "14": "eTzEastern",
+        "15": "eTzUSEastern",
+        "16": "eTzAtlantic",
+        "17": "eTzSAWestern",
+        "18": "eTzPacificSA",
+        "19": "eTzNewfoundland",
+        "20": "eTzESouthAmerica",
+        "21": "eTzSAEastern",
+        "22": "eTzGreenland",
+        "23": "eTzMidAtlantic",
+        "24": "eTzAzores",
+        "25": "eTzCapeVerde",
+        "26": "eTzGreenwich",
+        "27": "eTzGMT",
+        "28": "eTzWEurope",
+        "29": "eTzCentralEurope",
+        "30": "eTzRomance",
+        "31": "eTzCentralEuropean",
+        "32": "eTzWCentralAfrica",
+        "33": "eTzGTB",
+        "34": "eTzEeurope",
+        "35": "eTzEgypt",
+        "36": "eTzSouthAfrica",
+        "37": "eTzFLE",
+        "38": "eTzJerusalem",
+        "39": "eTzArabic",
+        "40": "eTzArab",
+        "41": "eTzRussian",
+        "42": "eTzEAfrica",
+        "43": "eTzIran",
+        "44": "eTzArabian",
+        "45": "eTzCaucasus",
+        "46": "eTzAfghanistan",
+        "47": "eTzEkaterinburg",
+        "48": "eTzWestAsia",
+        "49": "eTzIndia",
+        "50": "eTzNepal",
+        "51": "eTzNCentralAsia",
+        "52": "eTzCentralAsia",
+        "53": "eTzSriLanka",
+        "54": "eTzMyanmar",
+        "55": "eTzSEAsia",
+        "56": "eTzNorthAsia",
+        "57": "eTzChina",
+        "58": "eTzNorthAsiaEast",
+        "59": "eTzMalayPeninsula",
+        "60": "eTzWAustralia",
+        "61": "eTzTaipei",
+        "62": "eTzTokyo",
+        "63": "eTzKorea",
+        "64": "eTzYakutsk",
+        "65": "eTzCenAustralia",
+        "66": "eTzAUSCentral",
+        "67": "eTzEAustralia",
+        "68": "eTzAUSEastern",
+        "69": "eTzWestPacific",
+        "70": "eTzTasmania",
+        "71": "eTzVladivostok",
+        "72": "eTzCentralPacific",
+        "73": "eTzNewZealand",
+        "74": "eTzFiji",
+        "75": "eTzTonga"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      99
+    ]
+  },
+  "time-display": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eTimeDisplayTwelveHour",
+        "2": "eTimeDisplayTwentyFourHour"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      28
+    ]
+  },
+  "date-display": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDateDisplayMMDDYY",
+        "2": "eDateDisplayDDMMYY",
+        "3": "eDateDisplayYYMMDD",
+        "4": "eDateDisplayMMM-DD-YYYY",
+        "5": "eDateDisplayDD-MMM-YYYY",
+        "6": "eDateDisplayYYYY-MMM-DD"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      22
+    ]
+  },
+  "localization-languages-supported": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-system",
+      52
+    ]
+  },
+  "localization-countries-supported": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-system",
+      53
+    ]
+  },
+  "supports-pjl-user-groups": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-security",
+      1
+    ]
+  },
+  "show-address": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "3": "eAuto",
+        "1": "eOff"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "display-status",
+      3
+    ]
+  },
+  "error-log-clear": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eClearErrorLog"
+      }
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "status-system",
+      38
+    ]
+  },
+  "warning-log-clear": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eClearErrorLog"
+      }
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "status-system",
+      105
+    ]
+  },
+  "warning4-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning4",
+      1
+    ]
+  },
+  "error14-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error14",
+      1
+    ]
+  },
+  "error15-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error15",
+      1
+    ]
+  },
+  "error16-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error16",
+      1
+    ]
+  },
+  "error17-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error17",
+      1
+    ]
+  },
+  "error18-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error18",
+      1
+    ]
+  },
+  "error19-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error19",
+      1
+    ]
+  },
+  "error20-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error20",
+      1
+    ]
+  },
+  "error21-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error21",
+      1
+    ]
+  },
+  "error22-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error22",
+      1
+    ]
+  },
+  "error23-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error23",
+      1
+    ]
+  },
+  "error24-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error24",
+      1
+    ]
+  },
+  "error25-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error25",
+      1
+    ]
+  },
+  "error26-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error26",
+      1
+    ]
+  },
+  "error27-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error27",
+      1
+    ]
+  },
+  "error28-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error28",
+      1
+    ]
+  },
+  "error29-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error29",
+      1
+    ]
+  },
+  "error30-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error30",
+      1
+    ]
+  },
+  "error31-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error31",
+      1
+    ]
+  },
+  "error32-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error32",
+      1
+    ]
+  },
+  "error33-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error33",
+      1
+    ]
+  },
+  "error34-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error34",
+      1
+    ]
+  },
+  "error35-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error35",
+      1
+    ]
+  },
+  "error36-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error36",
+      1
+    ]
+  },
+  "error37-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error37",
+      1
+    ]
+  },
+  "error38-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error38",
+      1
+    ]
+  },
+  "error39-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error39",
+      1
+    ]
+  },
+  "error40-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error40",
+      1
+    ]
+  },
+  "error41-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error41",
+      1
+    ]
+  },
+  "error42-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error42",
+      1
+    ]
+  },
+  "error43-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error43",
+      1
+    ]
+  },
+  "error44-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error44",
+      1
+    ]
+  },
+  "error45-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error45",
+      1
+    ]
+  },
+  "error46-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error46",
+      1
+    ]
+  },
+  "error47-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error47",
+      1
+    ]
+  },
+  "error48-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error48",
+      1
+    ]
+  },
+  "error49-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error49",
+      1
+    ]
+  },
+  "error50-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error50",
+      1
+    ]
+  },
+  "warning1-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning1",
+      1
+    ]
+  },
+  "warning2-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning2",
+      1
+    ]
+  },
+  "warning3-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning3",
+      1
+    ]
+  },
+  "warning33-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning33",
+      1
+    ]
+  },
+  "warning5-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning5",
+      1
+    ]
+  },
+  "warning6-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning6",
+      1
+    ]
+  },
+  "warning7-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning7",
+      1
+    ]
+  },
+  "warning8-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning8",
+      1
+    ]
+  },
+  "warning9-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning9",
+      1
+    ]
+  },
+  "warning10-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning10",
+      1
+    ]
+  },
+  "warning11-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning11",
+      1
+    ]
+  },
+  "warning12-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning12",
+      1
+    ]
+  },
+  "warning13-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning13",
+      1
+    ]
+  },
+  "warning14-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning14",
+      1
+    ]
+  },
+  "warning15-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning15",
+      1
+    ]
+  },
+  "warning16-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning16",
+      1
+    ]
+  },
+  "warning17-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning17",
+      1
+    ]
+  },
+  "warning18-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning18",
+      1
+    ]
+  },
+  "warning19-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning19",
+      1
+    ]
+  },
+  "warning20-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning20",
+      1
+    ]
+  },
+  "warning21-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning21",
+      1
+    ]
+  },
+  "warning22-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning22",
+      1
+    ]
+  },
+  "warning23-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning23",
+      1
+    ]
+  },
+  "warning24-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning24",
+      1
+    ]
+  },
+  "warning25-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning25",
+      1
+    ]
+  },
+  "warning26-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning26",
+      1
+    ]
+  },
+  "warning27-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning27",
+      1
+    ]
+  },
+  "warning28-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning28",
+      1
+    ]
+  },
+  "warning29-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning29",
+      1
+    ]
+  },
+  "warning30-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning30",
+      1
+    ]
+  },
+  "warning31-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning31",
+      1
+    ]
+  },
+  "warning32-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning32",
+      1
+    ]
+  },
+  "warning48-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning48",
+      1
+    ]
+  },
+  "error13-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error13",
+      1
+    ]
+  },
+  "warning35-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning35",
+      1
+    ]
+  },
+  "warning36-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning36",
+      1
+    ]
+  },
+  "warning37-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning37",
+      1
+    ]
+  },
+  "warning38-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning38",
+      1
+    ]
+  },
+  "warning39-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning39",
+      1
+    ]
+  },
+  "warning40-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning40",
+      1
+    ]
+  },
+  "warning41-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning41",
+      1
+    ]
+  },
+  "warning42-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning42",
+      1
+    ]
+  },
+  "warning43-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning43",
+      1
+    ]
+  },
+  "warning44-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning44",
+      1
+    ]
+  },
+  "warning45-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning45",
+      1
+    ]
+  },
+  "warning46-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning46",
+      1
+    ]
+  },
+  "warning47-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning47",
+      1
+    ]
+  },
+  "warning34-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning34",
+      1
+    ]
+  },
+  "warning49-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning49",
+      1
+    ]
+  },
+  "warning50-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning50",
+      1
+    ]
+  },
+  "error1-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error1",
+      1
+    ]
+  },
+  "error2-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error2",
+      1
+    ]
+  },
+  "error3-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error3",
+      1
+    ]
+  },
+  "error4-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error4",
+      1
+    ]
+  },
+  "error5-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error5",
+      1
+    ]
+  },
+  "error6-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error6",
+      1
+    ]
+  },
+  "error7-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error7",
+      1
+    ]
+  },
+  "error8-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error8",
+      1
+    ]
+  },
+  "error9-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error9",
+      1
+    ]
+  },
+  "error10-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error10",
+      1
+    ]
+  },
+  "error11-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error11",
+      1
+    ]
+  },
+  "error12-time-stamp": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error12",
+      1
+    ]
+  },
+  "warning3-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning3",
+      2
+    ]
+  },
+  "error11-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error11",
+      2
+    ]
+  },
+  "error13-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error13",
+      2
+    ]
+  },
+  "error14-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error14",
+      2
+    ]
+  },
+  "error15-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error15",
+      2
+    ]
+  },
+  "error16-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error16",
+      2
+    ]
+  },
+  "error17-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error17",
+      2
+    ]
+  },
+  "error18-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error18",
+      2
+    ]
+  },
+  "error19-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error19",
+      2
+    ]
+  },
+  "error20-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error20",
+      2
+    ]
+  },
+  "error21-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error21",
+      2
+    ]
+  },
+  "error22-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error22",
+      2
+    ]
+  },
+  "error23-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error23",
+      2
+    ]
+  },
+  "error24-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error24",
+      2
+    ]
+  },
+  "error25-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error25",
+      2
+    ]
+  },
+  "error26-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error26",
+      2
+    ]
+  },
+  "error27-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error27",
+      2
+    ]
+  },
+  "error28-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error28",
+      2
+    ]
+  },
+  "error29-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error29",
+      2
+    ]
+  },
+  "error30-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error30",
+      2
+    ]
+  },
+  "error31-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error31",
+      2
+    ]
+  },
+  "error32-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error32",
+      2
+    ]
+  },
+  "error33-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error33",
+      2
+    ]
+  },
+  "error34-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error34",
+      2
+    ]
+  },
+  "error35-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error35",
+      2
+    ]
+  },
+  "error36-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error36",
+      2
+    ]
+  },
+  "error37-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error37",
+      2
+    ]
+  },
+  "error38-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error38",
+      2
+    ]
+  },
+  "error39-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error39",
+      2
+    ]
+  },
+  "error40-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error40",
+      2
+    ]
+  },
+  "error41-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error41",
+      2
+    ]
+  },
+  "error42-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error42",
+      2
+    ]
+  },
+  "error43-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error43",
+      2
+    ]
+  },
+  "error44-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error44",
+      2
+    ]
+  },
+  "error45-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error45",
+      2
+    ]
+  },
+  "error46-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error46",
+      2
+    ]
+  },
+  "error47-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error47",
+      2
+    ]
+  },
+  "error48-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error48",
+      2
+    ]
+  },
+  "error49-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error49",
+      2
+    ]
+  },
+  "error50-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error50",
+      2
+    ]
+  },
+  "warning1-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning1",
+      2
+    ]
+  },
+  "warning2-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning2",
+      2
+    ]
+  },
+  "warning32-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning32",
+      2
+    ]
+  },
+  "warning4-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning4",
+      2
+    ]
+  },
+  "warning5-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning5",
+      2
+    ]
+  },
+  "warning6-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning6",
+      2
+    ]
+  },
+  "warning7-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning7",
+      2
+    ]
+  },
+  "warning8-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning8",
+      2
+    ]
+  },
+  "warning9-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning9",
+      2
+    ]
+  },
+  "warning10-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning10",
+      2
+    ]
+  },
+  "warning11-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning11",
+      2
+    ]
+  },
+  "warning12-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning12",
+      2
+    ]
+  },
+  "warning13-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning13",
+      2
+    ]
+  },
+  "warning14-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning14",
+      2
+    ]
+  },
+  "warning15-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning15",
+      2
+    ]
+  },
+  "warning16-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning16",
+      2
+    ]
+  },
+  "warning17-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning17",
+      2
+    ]
+  },
+  "warning18-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning18",
+      2
+    ]
+  },
+  "warning19-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning19",
+      2
+    ]
+  },
+  "warning20-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning20",
+      2
+    ]
+  },
+  "warning21-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning21",
+      2
+    ]
+  },
+  "warning22-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning22",
+      2
+    ]
+  },
+  "warning23-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning23",
+      2
+    ]
+  },
+  "warning24-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning24",
+      2
+    ]
+  },
+  "warning25-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning25",
+      2
+    ]
+  },
+  "warning26-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning26",
+      2
+    ]
+  },
+  "warning27-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning27",
+      2
+    ]
+  },
+  "warning28-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning28",
+      2
+    ]
+  },
+  "warning29-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning29",
+      2
+    ]
+  },
+  "warning30-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning30",
+      2
+    ]
+  },
+  "warning31-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning31",
+      2
+    ]
+  },
+  "warning47-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning47",
+      2
+    ]
+  },
+  "error10-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error10",
+      2
+    ]
+  },
+  "warning34-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning34",
+      2
+    ]
+  },
+  "warning35-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning35",
+      2
+    ]
+  },
+  "warning36-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning36",
+      2
+    ]
+  },
+  "warning37-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning37",
+      2
+    ]
+  },
+  "warning38-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning38",
+      2
+    ]
+  },
+  "warning39-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning39",
+      2
+    ]
+  },
+  "warning40-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning40",
+      2
+    ]
+  },
+  "warning41-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning41",
+      2
+    ]
+  },
+  "warning42-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning42",
+      2
+    ]
+  },
+  "warning43-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning43",
+      2
+    ]
+  },
+  "warning44-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning44",
+      2
+    ]
+  },
+  "warning45-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning45",
+      2
+    ]
+  },
+  "warning46-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning46",
+      2
+    ]
+  },
+  "warning33-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning33",
+      2
+    ]
+  },
+  "warning48-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning48",
+      2
+    ]
+  },
+  "warning49-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning49",
+      2
+    ]
+  },
+  "warning50-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning50",
+      2
+    ]
+  },
+  "error12-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error12",
+      2
+    ]
+  },
+  "error1-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error1",
+      2
+    ]
+  },
+  "error2-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error2",
+      2
+    ]
+  },
+  "error3-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error3",
+      2
+    ]
+  },
+  "error4-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error4",
+      2
+    ]
+  },
+  "error5-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error5",
+      2
+    ]
+  },
+  "error6-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error6",
+      2
+    ]
+  },
+  "error7-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error7",
+      2
+    ]
+  },
+  "error8-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error8",
+      2
+    ]
+  },
+  "error9-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error9",
+      2
+    ]
+  },
+  "error13-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error13",
+      3
+    ]
+  },
+  "error14-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error14",
+      3
+    ]
+  },
+  "error15-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error15",
+      3
+    ]
+  },
+  "error16-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error16",
+      3
+    ]
+  },
+  "error17-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error17",
+      3
+    ]
+  },
+  "error18-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error18",
+      3
+    ]
+  },
+  "error19-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error19",
+      3
+    ]
+  },
+  "error20-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error20",
+      3
+    ]
+  },
+  "error21-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error21",
+      3
+    ]
+  },
+  "error22-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error22",
+      3
+    ]
+  },
+  "error23-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error23",
+      3
+    ]
+  },
+  "error24-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error24",
+      3
+    ]
+  },
+  "error25-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error25",
+      3
+    ]
+  },
+  "error26-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error26",
+      3
+    ]
+  },
+  "error27-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error27",
+      3
+    ]
+  },
+  "error28-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error28",
+      3
+    ]
+  },
+  "error29-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error29",
+      3
+    ]
+  },
+  "error30-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error30",
+      3
+    ]
+  },
+  "error31-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error31",
+      3
+    ]
+  },
+  "error32-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error32",
+      3
+    ]
+  },
+  "error33-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error33",
+      3
+    ]
+  },
+  "error34-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error34",
+      3
+    ]
+  },
+  "error35-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error35",
+      3
+    ]
+  },
+  "error36-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error36",
+      3
+    ]
+  },
+  "error37-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error37",
+      3
+    ]
+  },
+  "error38-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error38",
+      3
+    ]
+  },
+  "error39-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error39",
+      3
+    ]
+  },
+  "error40-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error40",
+      3
+    ]
+  },
+  "error41-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error41",
+      3
+    ]
+  },
+  "error42-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error42",
+      3
+    ]
+  },
+  "error43-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error43",
+      3
+    ]
+  },
+  "error44-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error44",
+      3
+    ]
+  },
+  "error45-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error45",
+      3
+    ]
+  },
+  "error46-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error46",
+      3
+    ]
+  },
+  "error47-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error47",
+      3
+    ]
+  },
+  "error48-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error48",
+      3
+    ]
+  },
+  "error49-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error49",
+      3
+    ]
+  },
+  "error50-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error50",
+      3
+    ]
+  },
+  "warning1-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning1",
+      3
+    ]
+  },
+  "warning2-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning2",
+      3
+    ]
+  },
+  "warning3-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning3",
+      3
+    ]
+  },
+  "warning4-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning4",
+      3
+    ]
+  },
+  "warning5-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning5",
+      3
+    ]
+  },
+  "warning6-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning6",
+      3
+    ]
+  },
+  "warning7-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning7",
+      3
+    ]
+  },
+  "warning8-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning8",
+      3
+    ]
+  },
+  "warning9-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning9",
+      3
+    ]
+  },
+  "warning10-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning10",
+      3
+    ]
+  },
+  "warning11-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning11",
+      3
+    ]
+  },
+  "warning12-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning12",
+      3
+    ]
+  },
+  "warning13-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning13",
+      3
+    ]
+  },
+  "warning14-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning14",
+      3
+    ]
+  },
+  "warning15-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning15",
+      3
+    ]
+  },
+  "warning16-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning16",
+      3
+    ]
+  },
+  "warning17-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning17",
+      3
+    ]
+  },
+  "warning18-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning18",
+      3
+    ]
+  },
+  "warning19-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning19",
+      3
+    ]
+  },
+  "warning20-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning20",
+      3
+    ]
+  },
+  "warning21-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning21",
+      3
+    ]
+  },
+  "warning22-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning22",
+      3
+    ]
+  },
+  "warning23-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning23",
+      3
+    ]
+  },
+  "warning24-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning24",
+      3
+    ]
+  },
+  "warning25-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning25",
+      3
+    ]
+  },
+  "warning26-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning26",
+      3
+    ]
+  },
+  "warning27-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning27",
+      3
+    ]
+  },
+  "warning28-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning28",
+      3
+    ]
+  },
+  "warning29-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning29",
+      3
+    ]
+  },
+  "warning30-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning30",
+      3
+    ]
+  },
+  "warning31-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning31",
+      3
+    ]
+  },
+  "warning32-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning32",
+      3
+    ]
+  },
+  "warning33-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning33",
+      3
+    ]
+  },
+  "warning34-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning34",
+      3
+    ]
+  },
+  "warning35-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning35",
+      3
+    ]
+  },
+  "warning36-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning36",
+      3
+    ]
+  },
+  "warning37-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning37",
+      3
+    ]
+  },
+  "warning38-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning38",
+      3
+    ]
+  },
+  "warning39-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning39",
+      3
+    ]
+  },
+  "error1-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error1",
+      3
+    ]
+  },
+  "warning41-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning41",
+      3
+    ]
+  },
+  "warning42-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning42",
+      3
+    ]
+  },
+  "warning43-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning43",
+      3
+    ]
+  },
+  "warning44-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning44",
+      3
+    ]
+  },
+  "warning45-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning45",
+      3
+    ]
+  },
+  "warning46-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning46",
+      3
+    ]
+  },
+  "warning47-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning47",
+      3
+    ]
+  },
+  "warning48-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning48",
+      3
+    ]
+  },
+  "warning49-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning49",
+      3
+    ]
+  },
+  "warning50-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning50",
+      3
+    ]
+  },
+  "error2-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error2",
+      3
+    ]
+  },
+  "warning40-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "warning40",
+      3
+    ]
+  },
+  "error3-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error3",
+      3
+    ]
+  },
+  "error4-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error4",
+      3
+    ]
+  },
+  "error5-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error5",
+      3
+    ]
+  },
+  "error6-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error6",
+      3
+    ]
+  },
+  "error7-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error7",
+      3
+    ]
+  },
+  "error8-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error8",
+      3
+    ]
+  },
+  "error9-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error9",
+      3
+    ]
+  },
+  "error10-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error10",
+      3
+    ]
+  },
+  "error11-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error11",
+      3
+    ]
+  },
+  "error12-date-time": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "error12",
+      3
+    ]
+  },
+  "order-cartridge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      71
+    ]
+  },
+  "clearable-warning": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn",
+        "3": "eJob"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-job",
+      1
+    ]
+  },
+  "auto-continue": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      7
+    ]
+  },
+  "protect-ews-info-tab": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      17
+    ]
+  },
+  "ews-request-control-panel-supplies-status": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-web-server",
+      5
+    ]
+  },
+  "channelprinteralert": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "channel",
+      2
+    ]
+  },
+  "model-number": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "id",
+      1
+    ]
+  },
+  "service-id": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      19
+    ]
+  },
+  "install-date": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      8
+    ]
+  },
+  "serial-number": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "id",
+      3
+    ]
+  },
+  "model-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "id",
+      2
+    ]
+  },
+  "model-derivative": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "id",
+      16
+    ]
+  },
+  "device-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "id",
+      10
+    ]
+  },
+  "device-location": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "id",
+      11
+    ]
+  },
+  "asset-number": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "id",
+      12
+    ]
+  },
+  "job-info-accounting-job-type": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "ePrintJob",
+        "2": "eIPPJob",
+        "3": "eCopyJob",
+        "4": "eCopyInterruptJob",
+        "5": "eJetSendJob",
+        "6": "eInternalPage",
+        "7": "eCleaningPage",
+        "8": "eAutoCleaningPage",
+        "9": "eDigitalSendJob",
+        "10": "eWebPrintJob",
+        "11": "eFaxPrintJob",
+        "12": "eRetrievedJob",
+        "13": "ePhotoCardPrintJob",
+        "1000": "eUnknownJob"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      14
+    ]
+  },
+  "job-info-pages-printed": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      13
+    ]
+  },
+  "job-info-size": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      14
+    ]
+  },
+  "job-info-physical-outbins-used": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cOutbin1",
+        "1": "cOutbin2",
+        "2": "cOutbin3",
+        "3": "cOutbin4",
+        "4": "cOutbin5",
+        "5": "cOutbin6",
+        "6": "cOutbin7",
+        "7": "cOutbin8",
+        "8": "cOutbin9",
+        "9": "cOutbin10",
+        "10": "cOutbin11",
+        "11": "cOutbin12",
+        "12": "cOutbin13",
+        "13": "cOutbin14",
+        "14": "cOutbin15",
+        "15": "cOutbin16",
+        "16": "cOutbin17"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      22
+    ]
+  },
+  "job-info-outbins-used": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cOutbin1",
+        "1": "cOutbin2",
+        "2": "cOutbin3",
+        "3": "cOutbin4",
+        "4": "cOutbin5",
+        "5": "cOutbin6",
+        "6": "cOutbin7",
+        "7": "cOutbin8",
+        "8": "cOutbin9",
+        "9": "cOutbin10",
+        "10": "cOutbin11",
+        "11": "cOutbin12",
+        "12": "cOutbin13",
+        "13": "cOutbin14",
+        "14": "cOutbin15",
+        "15": "cOutbin16",
+        "16": "cOutbin17"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      20
+    ]
+  },
+  "job-info-accounting-media-size": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eUSExecutive",
+        "2": "eUSLetter",
+        "3": "eUSLegal",
+        "10": "eFoolscap",
+        "11": "eLedger",
+        "17": "eROC16K",
+        "18": "eJISExecutive",
+        "19": "eROC8K",
+        "24": "eISOandJISA6",
+        "25": "eISOandJISA5",
+        "26": "eISOandJISA4",
+        "27": "eISOandJISA3",
+        "33": "ePRC8K270X390",
+        "34": "ePRC16K195X270",
+        "35": "ePRC8K260X368",
+        "44": "eJISB6",
+        "45": "eJISB5",
+        "46": "eJISB4",
+        "65": "eISOB5",
+        "71": "eJapansePostcardSingle",
+        "72": "eJapansePostcardDouble",
+        "73": "eISOA6Postcard",
+        "74": "eIndexCard4x6",
+        "75": "eIndexCard5x8",
+        "76": "ePhoto4x6",
+        "77": "eJapanesePostcardWithTab",
+        "80": "eMonarch",
+        "81": "eCommercial10",
+        "89": "ePRC16K184X260",
+        "90": "eInternationalDL",
+        "91": "eInternationalC5",
+        "92": "eInternationalC6",
+        "100": "eInternationalB5",
+        "101": "eCustom",
+        "109": "eUSEnvelopeA2",
+        "110": "eJapanseEnvLong3",
+        "111": "eJapanseEnvLong4",
+        "257": "eUSExecutiveR",
+        "258": "eUSLetterR",
+        "273": "eROC16KR",
+        "280": "eISOandJISA6R",
+        "281": "eISOandJISA5R",
+        "282": "eISOandJISA4R",
+        "300": "eJISBR6R",
+        "301": "eJISB5R",
+        "32764": "eAnyCustomSize",
+        "32765": "eAnySize",
+        "32766": "eCustomRoll",
+        "32767": "eUnknownMediaSize"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      1
+    ]
+  },
+  "job-info-accounting-media-type": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eUnknownMedia",
+        "2": "eStandardType",
+        "3": "ePreprinted",
+        "4": "eLetterhead",
+        "5": "eTransparency",
+        "6": "ePrepunched",
+        "7": "eLabels",
+        "8": "eBond",
+        "9": "eRecycled",
+        "10": "eColored",
+        "11": "eCardStock",
+        "12": "eRough",
+        "13": "eVellum",
+        "14": "eHeavy",
+        "15": "eGloss",
+        "16": "eUserType1",
+        "17": "eUserType2",
+        "18": "eUserType3",
+        "19": "eUserType4",
+        "20": "eUserType5",
+        "24": "ePhotoGlossy",
+        "25": "ePhotoQualityGlossy",
+        "26": "ePhotoQualityMatte",
+        "27": "eEverydayPhotoGlossy",
+        "28": "eEverydayPhotoMatte",
+        "29": "ePremiumInkjet",
+        "30": "ePremiumInkjetHeavy",
+        "31": "eBrochureGlossy",
+        "32": "eBrochureMatte",
+        "33": "ePremiumPhotoGlossy",
+        "34": "ePremiumPlussPhotoGlossy",
+        "35": "ePremiumPlusPhotoMatte",
+        "36": "eColorfastPhotoGlossy",
+        "37": "ePremiumTransparency",
+        "38": "ePremiumPlusTranparency",
+        "39": "eNHPHeavyGloss",
+        "40": "eExtraHeavy",
+        "41": "eHighGlossImages",
+        "42": "eIntermediate",
+        "43": "eTab",
+        "44": "eExtraHeavyGloss",
+        "45": "eHPIJTrans",
+        "46": "eHPSnowman160",
+        "47": "eHPSnowman220",
+        "48": "eHPPremMatte",
+        "49": "eHPBrochMatte",
+        "50": "eHPCoverMatte",
+        "51": "eHPMatte",
+        "52": "eCoverMatte",
+        "53": "eHPOfficePaper",
+        "54": "eHPOfficePaperEU",
+        "55": "eLastMedia"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      2
+    ]
+  },
+  "job-info-accounting-media-simplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      4
+    ]
+  },
+  "job-info-accounting-media-duplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      5
+    ]
+  },
+  "job-info-accounting-grayscale-impression-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      6
+    ]
+  },
+  "job-info-accounting-color-impression-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      7
+    ]
+  },
+  "job-info-accounting-black-dots": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      8
+    ]
+  },
+  "job-info-accounting-yellow-dots": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      9
+    ]
+  },
+  "job-info-accounting-cyan-dots": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      10
+    ]
+  },
+  "job-info-accounting-magenta-dots": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      11
+    ]
+  },
+  "job-info-accounting-fixer-dots": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      33
+    ]
+  },
+  "job-info-accounting-finishing-options": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNoFinish",
+        "2": "eOffset",
+        "3": "ePunch",
+        "4": "eStapler",
+        "5": "eFinisher",
+        "6": "eBinding",
+        "11": "eCustom1",
+        "12": "eCustom2",
+        "13": "eCustom3",
+        "14": "eCustom4",
+        "15": "eCustom5",
+        "20": "eOther"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-accounting",
+      3
+    ]
+  },
+  "job-info-io-source": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      11
+    ]
+  },
+  "job-info-name1": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      1
+    ]
+  },
+  "job-info-name2": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      2
+    ]
+  },
+  "job-info-attr-1": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      1
+    ]
+  },
+  "job-info-attr-2": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      2
+    ]
+  },
+  "job-info-attr-3": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      3
+    ]
+  },
+  "job-info-attr-4": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      4
+    ]
+  },
+  "job-info-attr-5": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      5
+    ]
+  },
+  "job-info-attr-6": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      6
+    ]
+  },
+  "job-info-attr-7": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      7
+    ]
+  },
+  "job-info-attr-8": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      8
+    ]
+  },
+  "job-info-attr-9": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      9
+    ]
+  },
+  "job-info-attr-10": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      10
+    ]
+  },
+  "job-info-attr-11": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      11
+    ]
+  },
+  "job-info-attr-12": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      12
+    ]
+  },
+  "job-info-attr-13": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      13
+    ]
+  },
+  "job-info-attr-14": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      14
+    ]
+  },
+  "job-info-attr-15": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      15
+    ]
+  },
+  "job-info-attr-16": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info-attribute",
+      16
+    ]
+  },
+  "job-info-state": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "3": "eAborted",
+        "4": "eWaitingForResources",
+        "5": "ePrinted",
+        "6": "eRetained",
+        "7": "eTerminating",
+        "8": "eInterrupted",
+        "9": "ePaused",
+        "10": "eCancelled",
+        "11": "eProcessing",
+        "12": "eScanning",
+        "13": "eSending",
+        "14": "eStored"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      15
+    ]
+  },
+  "job-info-outcome": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "3": "eOk",
+        "4": "eWarningsEncountered",
+        "5": "eErrorsEncountered"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      19
+    ]
+  },
+  "job-info-pages-processed": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      12
+    ]
+  },
+  "default-media-size": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eUSExecutive",
+        "2": "eUSLetter",
+        "3": "eUSLegal",
+        "4": "eUSEDP",
+        "5": "eEuropeanEDP",
+        "6": "eReservedDoNotUse",
+        "7": "eUSGovernmentLetter",
+        "8": "eUSGovernmentLegal",
+        "9": "eFolio",
+        "10": "eFoolscap",
+        "11": "eLedger",
+        "12": "eCSize",
+        "13": "eDSize",
+        "14": "eESize",
+        "15": "eStatement",
+        "16": "eSuperB",
+        "17": "eROC16K",
+        "18": "eJISExecutive",
+        "19": "eROC8K",
+        "20": "eISOandJISA10",
+        "21": "eISOandJISA9",
+        "22": "eISOandJISA8",
+        "23": "eISOandJISA7",
+        "24": "eISOandJISA6",
+        "25": "eISOandJISA5",
+        "26": "eISOandJISA4",
+        "27": "eISOandJISA3",
+        "28": "eISOandJISA2",
+        "29": "eISOandJISA1",
+        "30": "eISOandJISA0",
+        "31": "eISOandJIS2A0",
+        "32": "eISOandJIS4A0",
+        "33": "ePRC8K270X390",
+        "34": "ePRC16K195X270",
+        "35": "ePRC8K260X368",
+        "36": "eISORA4",
+        "37": "eISOSRA4",
+        "39": "eISORA3",
+        "40": "eJISB10",
+        "41": "eJISB9",
+        "42": "eJISB8",
+        "43": "eJISB7",
+        "44": "eJISB6",
+        "45": "eJISB5",
+        "46": "eJISB4",
+        "47": "eJISB3",
+        "48": "eJISB2",
+        "49": "eJISB1",
+        "50": "eJISB0",
+        "60": "eISOB10",
+        "61": "eISOB9",
+        "62": "eISOB8",
+        "63": "eISOB7",
+        "64": "eISOB6",
+        "65": "eISOB5",
+        "66": "eISOB4",
+        "67": "eISOB3",
+        "68": "eISOB2",
+        "69": "eISOB1",
+        "70": "eISOB0",
+        "71": "eJapansePostcardSingle",
+        "72": "eJapansePostcardDouble",
+        "73": "eISOA6Postcard",
+        "74": "eIndexCard4x6",
+        "75": "eIndexCard5x8",
+        "76": "ePhoto4x6",
+        "77": "eJapanesePostcardWithTab",
+        "78": "eIndexCard3x5",
+        "79": "eCommercial9",
+        "80": "eMonarch",
+        "81": "eCommercial10",
+        "82": "eCatalog",
+        "83": "eNo10Envelope",
+        "89": "ePRC16K184X260",
+        "90": "eInternationalDL",
+        "91": "eInternationalC5",
+        "92": "eInternationalC6",
+        "93": "eInternationalC4",
+        "100": "eInternationalB5",
+        "101": "eCustom",
+        "108": "eCustomCard",
+        "109": "eUSEnvelopeA2",
+        "110": "eJapanseEnvLong3",
+        "111": "eJapanseEnvLong4",
+        "112": "eJapaneseEnv2",
+        "118": "ePhoto10x15",
+        "119": "ePhotoCabinet",
+        "120": "eTabloidExtra",
+        "121": "ePhotoLSizeCard",
+        "122": "eIndexCard5x7",
+        "123": "ePhotoESizeCard",
+        "124": "ePhotoKGSizeCard",
+        "125": "ePhoto2ESizeCard",
+        "126": "ePhoto2LSizeCard",
+        "257": "eUSExecutiveR",
+        "258": "eUSLetterR",
+        "273": "eROC16KR",
+        "280": "eISOandJISA6R",
+        "281": "eISOandJISA5R",
+        "282": "eISOandJISA4R",
+        "300": "eJISBR6R",
+        "301": "eJISB5R",
+        "302": "eStatementR",
+        "32764": "eAnyCustomSize",
+        "32765": "eAnySize",
+        "32766": "eCustomRoll",
+        "32767": "eUnknownMediaSize",
+        "65234": "eStatementWR",
+        "65235": "eJISB5WR",
+        "65254": "eISOandJISA4WR",
+        "65255": "eISOandJISA5WR",
+        "65278": "eUSLetterWR",
+        "65490": "eJISB4W",
+        "65491": "eJISB5W",
+        "65509": "eISOandJISA3W",
+        "65510": "eISOandJISA4W",
+        "65511": "eISOandJISA5W",
+        "65521": "eStatementW",
+        "65530": "eLedgerW",
+        "65534": "eUSLetterW"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      13
+    ]
+  },
+  "default-media-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      22
+    ]
+  },
+  "media-size-supported-driver-n-string": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "media-sizes",
+      1
+    ]
+  },
+  "cold-reset-media-size": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eUSExecutive",
+        "2": "eUSLetter",
+        "3": "eUSLegal",
+        "4": "eUSEDP",
+        "5": "eEuropeanEDP",
+        "6": "eReservedDoNotUse",
+        "7": "eUSGovernmentLetter",
+        "8": "eUSGovernmentLegal",
+        "9": "eFolio",
+        "10": "eFoolscap",
+        "11": "eLedger",
+        "12": "eCSize",
+        "13": "eDSize",
+        "14": "eESize",
+        "15": "eStatement",
+        "16": "eSuperB",
+        "17": "eROC16K",
+        "18": "eJISExecutive",
+        "19": "eROC8K",
+        "20": "eISOandJISA10",
+        "21": "eISOandJISA9",
+        "22": "eISOandJISA8",
+        "23": "eISOandJISA7",
+        "24": "eISOandJISA6",
+        "25": "eISOandJISA5",
+        "26": "eISOandJISA4",
+        "27": "eISOandJISA3",
+        "28": "eISOandJISA2",
+        "29": "eISOandJISA1",
+        "30": "eISOandJISA0",
+        "31": "eISOandJIS2A0",
+        "32": "eISOandJIS4A0",
+        "33": "ePRC8K270X390",
+        "34": "ePRC16K195X270",
+        "35": "ePRC8K260X368",
+        "40": "eJISB10",
+        "41": "eJISB9",
+        "42": "eJISB8",
+        "43": "eJISB7",
+        "44": "eJISB6",
+        "45": "eJISB5",
+        "46": "eJISB4",
+        "47": "eJISB3",
+        "48": "eJISB2",
+        "49": "eJISB1",
+        "50": "eJISB0",
+        "60": "eISOB10",
+        "61": "eISOB9",
+        "62": "eISOB8",
+        "63": "eISOB7",
+        "64": "eISOB6",
+        "65": "eISOB5",
+        "66": "eISOB4",
+        "67": "eISOB3",
+        "68": "eISOB2",
+        "69": "eISOB1",
+        "70": "eISOB0",
+        "71": "eJapansePostcardSingle",
+        "72": "eJapansePostcardDouble",
+        "73": "eISOA6Postcard",
+        "74": "eIndexCard4x6",
+        "75": "eIndexCard5x8",
+        "76": "ePhoto4x6",
+        "77": "eJapanesePostcardWithTab",
+        "78": "eIndexCard3x5",
+        "80": "eMonarch",
+        "81": "eCommercial10",
+        "82": "eCatalog",
+        "83": "eNo10Envelope",
+        "89": "ePRC16K184X260",
+        "90": "eInternationalDL",
+        "91": "eInternationalC5",
+        "92": "eInternationalC6",
+        "93": "eInternationalC4",
+        "100": "eInternationalB5",
+        "101": "eCustom",
+        "108": "eCustomCard",
+        "109": "eUSEnvelopeA2",
+        "110": "eJapanseEnvLong3",
+        "111": "eJapanseEnvLong4",
+        "112": "eJapaneseEnv2",
+        "118": "ePhoto10x15",
+        "119": "ePhotoCabinet",
+        "121": "ePhotoLSizeCard",
+        "122": "eIndexCard5x7",
+        "123": "ePhotoESizeCard",
+        "124": "ePhotoKGSizeCard",
+        "125": "ePhoto2ESizeCard",
+        "126": "ePhoto2LSizeCard",
+        "257": "eUSExecutiveR",
+        "258": "eUSLetterR",
+        "273": "eROC16KR",
+        "280": "eISOandJISA6R",
+        "281": "eISOandJISA5R",
+        "282": "eISOandJISA4R",
+        "300": "eJISBR6R",
+        "301": "eJISB5R",
+        "302": "eStatementR",
+        "32764": "eAnyCustomSize",
+        "32765": "eAnySize",
+        "32766": "eCustomRoll",
+        "32767": "eUnknownMediaSize",
+        "65234": "eStatementWR",
+        "65235": "eJISB5WR",
+        "65254": "eISOandJISA4WR",
+        "65255": "eISOandJISA5WR",
+        "65278": "eUSLetterWR",
+        "65490": "eJISB4W",
+        "65491": "eJISB5W",
+        "65509": "eISOandJISA3W",
+        "65510": "eISOandJISA4W",
+        "65511": "eISOandJISA5W",
+        "65521": "eStatementW",
+        "65530": "eLedgerW",
+        "65534": "eUSLetterW"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      19
+    ]
+  },
+  "media-number-of-type-supported": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "media-types",
+      1
+    ]
+  },
+  "media-names-available": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cMediaName1Available",
+        "1": "cMediaName2Available",
+        "2": "cMediaName3Available",
+        "3": "cMediaName4Available",
+        "4": "cMediaName5Available",
+        "5": "cMediaName6Available",
+        "6": "cMediaName7Available",
+        "7": "cMediaName8Available",
+        "8": "cMediaName9Available",
+        "9": "cMediaName10Available",
+        "10": "cMediaName11Available",
+        "11": "cMediaName12Available",
+        "12": "cMediaName13Available",
+        "13": "cMediaName14Available",
+        "14": "cMediaName15Available",
+        "15": "cMediaName16Available",
+        "16": "cMediaName17Available",
+        "17": "cMediaName18Available",
+        "18": "cMediaName19Available",
+        "19": "cMediaName20Available",
+        "20": "cMediaName21Available",
+        "21": "cMediaName22Available",
+        "22": "cMediaName23Available",
+        "23": "cMediaName24Available",
+        "24": "cMediaName25Available",
+        "25": "cMediaName26Available",
+        "26": "cMediaName27Available",
+        "27": "cMediaName28Available",
+        "28": "cMediaName29Available",
+        "29": "cMediaName30Available",
+        "30": "cMediaName31Available",
+        "31": "cMediaName32Available"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-print-media",
+      1
+    ]
+  },
+  "media-names-enabled": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-print-media",
+      3
+    ]
+  },
+  "held-job-enable": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "held-job-control",
+      4
+    ]
+  },
+  "power-state": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "ePowerStateAwake",
+        "2": "ePowerStatePowerSave",
+        "3": "ePowerStateSleep",
+        "4": "ePowerStateOff",
+        "5": "ePowerStateTransitioningToAwake",
+        "6": "ePowerStateTransitioningToPowerSave",
+        "7": "ePowerStateTransitioningToSleep",
+        "8": "ePowerStateTransitioningToOff",
+        "9": "ePowerStateReboot",
+        "10": "ePowerStateAutoOff",
+        "11": "ePowerState1Watt"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      65
+    ]
+  },
+  "energy-star": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      1
+    ]
+  },
+  "sleep-mode": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      2
+    ]
+  },
+  "powersave-enable-type": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "ePowerSaveOff",
+        "2": "ePowerSaveUseSleepDelay",
+        "3": "ePowerSaveUseSleepSchedule",
+        "4": "ePowerSaveMaximize",
+        "5": "ePowerSaveCustom"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      89
+    ]
+  },
+  "eprint-opt-in": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      19
+    ]
+  },
+  "eprint-enabled": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      20
+    ]
+  },
+  "eprint-email-address": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      21
+    ]
+  },
+  "eprint-email": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      22
+    ]
+  },
+  "eprint-printer-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      23
+    ]
+  },
+  "eprint-hp-web-services": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      24
+    ]
+  },
+  "eprint-jdi-interface": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eJDIInterface1",
+        "2": "eJDIInterface2",
+        "3": "eJDIInterface3",
+        "4": "eJDIInterface4",
+        "5": "eJDIInterface5",
+        "6": "eJDIInterface6",
+        "7": "eJDIInterface7",
+        "8": "eJDIInterface8",
+        "9": "eJDIInterface9",
+        "10": "eJDIInterface10"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      25
+    ]
+  },
+  "eprint-supported": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      31
+    ]
+  },
+  "eprint-supported-jdi": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      32
+    ]
+  },
+  "web-proxy-config-enable": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "eOff",
+        "1": "eOn"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-web-server",
+      4
+    ]
+  },
+  "mio1-type": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eEmpty",
+        "2": "eUnknown",
+        "3": "eUnSupported",
+        "4": "eReadOnlyMemory",
+        "5": "eVolatileRandomAccessMemory",
+        "6": "eNonVolatileRandomAccessMemory",
+        "7": "eFlashMemory",
+        "8": "eDiskDrive",
+        "9": "eRamRom",
+        "10": "eInputPHD",
+        "11": "eOutputPHD",
+        "12": "eIOCard",
+        "13": "eBindingPHD",
+        "14": "eSDRandomAccessMemory",
+        "15": "eSRandomAccessMemory",
+        "16": "eFPMRandomAccessMemory",
+        "17": "eEDORandomAccessMemory"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "mio1",
+      4
+    ]
+  },
+  "mio1-manufacturing-info": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "mio1",
+      3
+    ]
+  },
+  "mio1-model-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "mio1",
+      2
+    ]
+  },
+  "mio4-type": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eEmpty",
+        "2": "eUnknown",
+        "3": "eUnSupported",
+        "4": "eReadOnlyMemory",
+        "5": "eVolatileRandomAccessMemory",
+        "6": "eNonVolatileRandomAccessMemory",
+        "7": "eFlashMemory",
+        "8": "eDiskDrive",
+        "9": "eRamRom",
+        "10": "eInputPHD",
+        "11": "eOutputPHD",
+        "12": "eIOCard",
+        "13": "eBindingPHD",
+        "14": "eSDRandomAccessMemory",
+        "15": "eSRandomAccessMemory",
+        "16": "eFPMRandomAccessMemory",
+        "17": "eEDORandomAccessMemory"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "mio4",
+      4
+    ]
+  },
+  "mio4-manufacturing-info": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "mio4",
+      3
+    ]
+  },
+  "set-primary-interface-index": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      59
+    ]
+  },
+  "mio4-model-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "mio4",
+      2
+    ]
+  },
+  "wireless-direct-print-setting": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system2",
+      60
+    ]
+  },
+  "io-timeout": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-io",
+      1
+    ]
+  },
+  "direct-connect-ports-enable": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue",
+        "3": "eUnSupported"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      43
+    ]
+  },
+  "usb-product-id": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb",
+      5
+    ]
+  },
+  "usb-vendor-id": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb",
+      4
+    ]
+  },
+  "io-switch": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eYes"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-io",
+      2
+    ]
+  },
+  "usb-serial-number": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb",
+      1
+    ]
+  },
+  "usb-manufacturer-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb",
+      2
+    ]
+  },
+  "usb-product-description": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb",
+      3
+    ]
+  },
+  "usb-device-kind": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eUSBStorageDevice",
+        "2": "eUSBNonStorageDevice",
+        "3": "eUSBCompositeDevice",
+        "4": "eUSBUnsupportedDevice"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb",
+      6
+    ]
+  },
+  "usb-driver-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb",
+      7
+    ]
+  },
+  "usb-host-supported": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "usb-interface",
+      1
+    ]
+  },
+  "fw-rom-datecode": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "id",
+      5
+    ]
+  },
+  "fw-rom-revision": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "id",
+      6
+    ]
+  },
+  "factory-reset": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "settings-system",
+      68
+    ]
+  },
+  "usage-instructions-line1": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      5
+    ]
+  },
+  "usage-instructions-line2": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      6
+    ]
+  },
+  "usage-instructions-line3": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      7
+    ]
+  },
+  "usage-instructions-line4": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      8
+    ]
+  },
+  "hold-job-timeout": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-job",
+      10
+    ]
+  },
+  "held-job-user-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "held-job-info",
+      1
+    ]
+  },
+  "held-job-job-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "held-job-info",
+      2
+    ]
+  },
+  "held-job-retention": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eHoldOff",
+        "2": "eHoldOn",
+        "3": "eHoldStore",
+        "4": "eHoldProof"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "held-job-info",
+      3
+    ]
+  },
+  "held-job-security": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eHoldTypePublic",
+        "2": "eHoldTypePrivate"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "held-job-info",
+      4
+    ]
+  },
+  "held-job-quantity": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "held-job-info",
+      5
+    ]
+  },
+  "held-job-pin": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "held-job-info",
+      6
+    ]
+  },
+  "held-job-print": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "held-job-control",
+      1
+    ]
+  },
+  "held-job-delete": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "held-job-control",
+      2
+    ]
+  },
+  "held-job-set-queue-size": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "held-job-control",
+      3
+    ]
+  },
+  "on-off-line": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOnline",
+        "2": "eOffline",
+        "3": "eOfflineAtEndOfJob"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      5
+    ]
+  },
+  "job-info-change-id": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-job",
+      3
+    ]
+  },
+  "cancel-job": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-job",
+      2
+    ]
+  },
+  "fax-init-at-command": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "settings-system2",
+      47
+    ]
+  },
+  "scanner-accessory-digital-send-config-fax-embedded": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      83
+    ]
+  },
+  "fax-notification-available": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNotAvailable",
+        "2": "eAvailable"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-fax-proc-sub",
+      15
+    ]
+  },
+  "pcfax-send-operational": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNonOperational",
+        "2": "eOperational"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-fax-proc-sub",
+      14
+    ]
+  },
+  "toner-miser-plus-value": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "settings-system2",
+      1
+    ]
+  },
+  "toner-miser-plus-supported": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-system2",
+      2
+    ]
+  },
+  "phd2-device-specific-command": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "ph2",
+      2
+    ]
+  },
+  "start-engine-early-warmup": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eValue1"
+      }
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "settings-system",
+      99
+    ]
+  },
+  "enable-engine-early-warmup": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisable",
+        "2": "eEnable"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      101
+    ]
+  },
+  "print-density": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      5
+    ]
+  },
+  "formatter-serial-number": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "id",
+      20
+    ]
+  },
+  "input-tray-auto-select": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-intray",
+      2
+    ]
+  },
+  "default-custom-paper-dim-unit": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "3": "eTenThousandthsOfInches",
+        "4": "eMicrometers"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-intray",
+      10
+    ]
+  },
+  "phd2-manufacturing-info": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd2",
+      2
+    ]
+  },
+  "phd2-model": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd2",
+      1
+    ]
+  },
+  "phd2-capacity": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd2",
+      4
+    ]
+  },
+  "phd2-type": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eEmpty",
+        "2": "eUnknown",
+        "3": "eUnSupported",
+        "4": "eReadOnlyMemory",
+        "5": "eVolatileRandomAccessMemory",
+        "6": "eNonVolatileRandomAccessMemory",
+        "7": "eFlashMemory",
+        "8": "eDiskDrive",
+        "9": "eRamRom",
+        "10": "eInputPHD",
+        "11": "eOutputPHD",
+        "12": "eIOCard",
+        "13": "eBindingPHD",
+        "14": "eSDRandomAccessMemory",
+        "15": "eSRandomAccessMemory",
+        "16": "eFPMRandomAccessMemory",
+        "17": "eEDORandomAccessMemory"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd2",
+      3
+    ]
+  },
+  "large-size-media-default-grain-direction": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eShortGrain",
+        "2": "eLongGrain"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      97
+    ]
+  },
+  "phd2-number-of-options": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd2",
+      5
+    ]
+  },
+  "phd2-options-model": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd2",
+      6
+    ]
+  },
+  "phd2-options-description": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd2",
+      7
+    ]
+  },
+  "overflow-bin": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-outbin",
+      4
+    ]
+  },
+  "device-configure-printer-parameters": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "device-configure",
+      12
+    ]
+  },
+  "engine-self-diagnostic": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "test",
+      7
+    ]
+  },
+  "engine-parameter": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "test",
+      8
+    ]
+  },
+  "phd3-manufacturing-info": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd3",
+      2
+    ]
+  },
+  "phd3-model": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd3",
+      1
+    ]
+  },
+  "phd3-capacity": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd3",
+      4
+    ]
+  },
+  "phd3-type": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eEmpty",
+        "2": "eUnknown",
+        "3": "eUnSupported",
+        "4": "eReadOnlyMemory",
+        "5": "eVolatileRandomAccessMemory",
+        "6": "eNonVolatileRandomAccessMemory",
+        "7": "eFlashMemory",
+        "8": "eDiskDrive",
+        "9": "eRamRom",
+        "10": "eInputPHD",
+        "11": "eOutputPHD",
+        "12": "eIOCard",
+        "13": "eBindingPHD",
+        "14": "eSDRandomAccessMemory",
+        "15": "eSRandomAccessMemory",
+        "16": "eFPMRandomAccessMemory",
+        "17": "eEDORandomAccessMemory"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd3",
+      3
+    ]
+  },
+  "phd3-number-of-options": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd3",
+      5
+    ]
+  },
+  "phd3-options-model": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd3",
+      6
+    ]
+  },
+  "phd3-options-description": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "phd3",
+      7
+    ]
+  },
+  "tray-prompt": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDoNotDisplay",
+        "2": "eDisplay"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-intray",
+      19
+    ]
+  },
+  "job-input-auto-continue-timeout": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      35
+    ]
+  },
+  "job-input-auto-continue-mode": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cCancelJob",
+        "1": "cAutoMediaSizeOverride",
+        "2": "cAutoMediaNameOverride",
+        "3": "cUSMediaSizeOverride",
+        "4": "cISOMediaSizeOverride"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      36
+    ]
+  },
+  "job-output-auto-continue-timeout": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      40
+    ]
+  },
+  "duplex-blank-pages": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDuplexBlankPagesAuto",
+        "2": "eDuplexBlankPagesYes"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      28
+    ]
+  },
+  "mono-color-switching-mode": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNeverSwitch",
+        "2": "eAlwaysSwitch",
+        "3": "eLookAheadSwitch"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-system",
+      31
+    ]
+  },
+  "tray-disable-use-instead": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-ph",
+      1
+    ]
+  },
+  "tray1-misprint-behavior-setting": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNormalBehavior",
+        "2": "eClassicBehavior"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "intray1",
+      24
+    ]
+  },
+  "reprint": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn",
+        "3": "eAuto"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      36
+    ]
+  },
+  "print-engine-revision": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-prt-eng",
+      26
+    ]
+  },
+  "default-custom-paper-feed-dim": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-intray",
+      11
+    ]
+  },
+  "default-custom-paper-xfeed-dim": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-intray",
+      12
+    ]
+  },
+  "input-tray-max-media-feed-dim": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-intray",
+      14
+    ]
+  },
+  "input-tray-max-media-xfeed-dim": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-intray",
+      15
+    ]
+  },
+  "input-tray-min-media-feed-dim": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-intray",
+      16
+    ]
+  },
+  "input-tray-min-media-xfeed-dim": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-intray",
+      17
+    ]
+  },
+  "collated-originals-support": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cCollatedOriginals",
+        "1": "cProofAndHold",
+        "2": "cSecurityPrint",
+        "3": "cAutoHighlight",
+        "4": "cCollatedAtSpeed"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-system",
+      42
+    ]
+  },
+  "device-used-while-cartridge-out-override-active": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNotUsed",
+        "2": "eUsed"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables",
+      9
+    ]
+  },
+  "cartridge-adaptive-gain-reset": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue"
+      }
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      37
+    ]
+  },
+  "supplies-at-very-low-delay": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "consumables-status",
+      2
+    ]
+  },
+  "supplies-at-very-low-setting": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "2": "eStopAtOut",
+        "4": "eOverrideAtOut",
+        "6": "ePromptAtOut",
+        "7": "ePrintBlack"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      38
+    ]
+  },
+  "consumable-life-low-threshold": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "consumables-life",
+      3
+    ]
+  },
+  "supplies-at-very-low-delay-limit": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "consumables-life",
+      6
+    ]
+  },
+  "cartridge-adaptive-gain": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      36
+    ]
+  },
+  "total-kilo-pixels-per-cartridge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables",
+      15
+    ]
+  },
+  "consumable-life-usage-units-remaining": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables-life",
+      1
+    ]
+  },
+  "consumable-life-usage-units": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "ePagesRemaining",
+        "2": "eEstimatedPagesRemaining",
+        "3": "eUnknownUnits",
+        "4": "ePagesSinceLow",
+        "5": "ePagesSinceOut",
+        "6": "ePagesPicked",
+        "7": "ePercentLifeRemaining",
+        "8": "e4X6ImagesPrinted",
+        "9": "eEngineDropCount",
+        "10": "eEngineWebAdvances"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables-life",
+      2
+    ]
+  },
+  "estimated-page-yield": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables-life",
+      4
+    ]
+  },
+  "estimated-page-yield-unit": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "e5PercentPages",
+        "2": "eISOPages"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables-life",
+      5
+    ]
+  },
+  "consumable-current-state": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cAuthLevel1",
+        "1": "cAuthLevel2",
+        "2": "cAuthLevel3",
+        "3": "cAuthLevel4",
+        "4": "cAuthLevel5",
+        "5": "cAuthLevel6",
+        "6": "cAuthLevel7",
+        "8": "cGenuineHPUnsupported",
+        "9": "cELabelDefective",
+        "10": "cELabelMissing",
+        "11": "cLowCondition",
+        "12": "cOutCondition",
+        "13": "cIncorrect",
+        "14": "cMissing",
+        "15": "cPastOutCondition",
+        "16": "cConfigurableLow",
+        "17": "cExpired",
+        "18": "cFailure",
+        "19": "cLeak",
+        "20": "cUnknownManufacturer",
+        "21": "cUnsupported",
+        "22": "cUnavailable",
+        "23": "cIncompatible",
+        "31": "cStatusAreValid"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables",
+      7
+    ]
+  },
+  "consumable-pages-printed-with-supply": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "consumables",
+      11
+    ]
+  },
+  "fih-extra-pulses-feature": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisable",
+        "2": "eEnable"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "foreign-interface",
+      2
+    ]
+  },
+  "total-mono-page-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-prt-eng",
+      6
+    ]
+  },
+  "total-color-page-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-prt-eng",
+      7
+    ]
+  },
+  "duplex-page-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-prt-eng",
+      22
+    ]
+  },
+  "source-tray-usage-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      10
+    ]
+  },
+  "destination-bin-usage-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      11
+    ]
+  },
+  "printed-modes-usage-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      9
+    ]
+  },
+  "usage-printer-mono-total-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      12
+    ]
+  },
+  "usage-printer-color-total-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      13
+    ]
+  },
+  "usage-printer-total-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      2
+    ]
+  },
+  "usage-printer-mono-simplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      15
+    ]
+  },
+  "usage-printer-mono-duplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      16
+    ]
+  },
+  "usage-printer-mono-dimplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      17
+    ]
+  },
+  "printed-media-combined-simplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      13
+    ]
+  },
+  "printed-media-combined-duplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      14
+    ]
+  },
+  "pcl-total-page-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "pdl-pcl",
+      5
+    ]
+  },
+  "postscript-total-page-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "pdl-postscript",
+      5
+    ]
+  },
+  "pdf-total-page-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "pdl-pdf",
+      2
+    ]
+  },
+  "impression-based-duplex-count-supported": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      15
+    ]
+  },
+  "source-tray-usage-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "source-tray-usage",
+      1
+    ]
+  },
+  "destination-bin-usage-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "destination-bin-usage",
+      1
+    ]
+  },
+  "printed-modes-mono-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-modes-usage",
+      1
+    ]
+  },
+  "printed-modes-color-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-modes-usage",
+      3
+    ]
+  },
+  "printed-modes-total-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-modes-usage",
+      5
+    ]
+  },
+  "printed-media-simplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      1
+    ]
+  },
+  "printed-media-duplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      3
+    ]
+  },
+  "printed-media-dimplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      10
+    ]
+  },
+  "printed-media-color-simplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-color-usage",
+      1
+    ]
+  },
+  "printed-media-color-duplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-color-usage",
+      3
+    ]
+  },
+  "printed-media-color-dimplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-color-usage",
+      6
+    ]
+  },
+  "printed-media-simplex-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      2
+    ]
+  },
+  "printed-media-duplex-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      4
+    ]
+  },
+  "printed-media-color-total-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-color-usage",
+      5
+    ]
+  },
+  "printed-media-total-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      5
+    ]
+  },
+  "printed-media-combined-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      7
+    ]
+  },
+  "printed-media-combined-simplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      11
+    ]
+  },
+  "printed-media-combined-duplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printed-media-usage",
+      12
+    ]
+  },
+  "print-meter-simplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      4
+    ]
+  },
+  "print-meter-duplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      5
+    ]
+  },
+  "print-meter-dimplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      7
+    ]
+  },
+  "print-meter-total-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      6
+    ]
+  },
+  "print-meter-usage-threshold": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      2
+    ]
+  },
+  "print-meter-print-quality": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "ePrintQualityMono",
+        "2": "ePrintQualityGood",
+        "3": "ePrintQualityBest"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      3
+    ]
+  },
+  "print-meter-simplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      8
+    ]
+  },
+  "print-meter-duplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      9
+    ]
+  },
+  "print-meter-category-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      10
+    ]
+  },
+  "print-meter-dimplex-total": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "print-meter-usage",
+      11
+    ]
+  },
+  "scanner-accessory-total-copy-pages-printed": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      63
+    ]
+  },
+  "print-meter-equivalent-impression-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "printer-accounting",
+      44
+    ]
+  },
+  "host-application-available-memory": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-system",
+      59
+    ]
+  },
+  "pdf-version": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "pdl-pdf",
+      1
+    ]
+  },
+  "pdf-enabled": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "ePDFNotEnabled",
+        "2": "ePDFEnabled"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "pdl-pdf",
+      3
+    ]
+  },
+  "postscript-print-errors": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "pdl-postscript",
+      11
+    ]
+  },
+  "pdf-print-errors": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eOn"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "pdl-pdf",
+      4
+    ]
+  },
+  "default-print-quality": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "imaging",
+      7
+    ]
+  },
+  "postscript-defer-media": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "pdl-postscript",
+      14
+    ]
+  },
+  "default-lines-per-page": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      11
+    ]
+  },
+  "default-bits-per-pixel": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      39
+    ]
+  },
+  "default-vmi": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      12
+    ]
+  },
+  "pcl-default-font-source": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eInternal",
+        "2": "ePermanentSoft",
+        "10": "eRomSimm1",
+        "11": "eRomSimm2",
+        "12": "eRomSimm3",
+        "13": "eRomSimm4",
+        "14": "eRomSimm5",
+        "15": "eUsb1",
+        "16": "eUsb2",
+        "17": "eUsb3",
+        "18": "eUsb4"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "pdl-pcl",
+      14
+    ]
+  },
+  "pcl-default-font-number": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "pdl-pcl",
+      15
+    ]
+  },
+  "default-horizontal-black-resolution": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      9
+    ]
+  },
+  "default-vertical-black-resolution": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      8
+    ]
+  },
+  "default-ret": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eOff",
+        "2": "eLight",
+        "3": "eMedium",
+        "4": "eDark",
+        "5": "eNotSet"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "imaging",
+      5
+    ]
+  },
+  "default-copies": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      4
+    ]
+  },
+  "form-feed": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eInitiateAction"
+      }
+    },
+    "access": "write-only",
+    "index": null,
+    "value": [
+      "settings-pdl",
+      5
+    ]
+  },
+  "form-feed-needed": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eFalse",
+        "2": "eTrue"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-pdl",
+      2
+    ]
+  },
+  "pjl-device-access": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "pjl",
+      4
+    ]
+  },
+  "override-media-size": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eUSExecutive",
+        "2": "eUSLetter",
+        "3": "eUSLegal",
+        "4": "eUSEDP",
+        "5": "eEuropeanEDP",
+        "6": "eReservedDoNotUse",
+        "7": "eUSGovernmentLetter",
+        "8": "eUSGovernmentLegal",
+        "9": "eFolio",
+        "10": "eFoolscap",
+        "11": "eLedger",
+        "12": "eCSize",
+        "13": "eDSize",
+        "14": "eESize",
+        "15": "eStatement",
+        "16": "eSuperB",
+        "17": "eROC16K",
+        "18": "eJISExecutive",
+        "19": "eROC8K",
+        "20": "eISOandJISA10",
+        "21": "eISOandJISA9",
+        "22": "eISOandJISA8",
+        "23": "eISOandJISA7",
+        "24": "eISOandJISA6",
+        "25": "eISOandJISA5",
+        "26": "eISOandJISA4",
+        "27": "eISOandJISA3",
+        "28": "eISOandJISA2",
+        "29": "eISOandJISA1",
+        "30": "eISOandJISA0",
+        "31": "eISOandJIS2A0",
+        "32": "eISOandJIS4A0",
+        "33": "ePRC8K270X390",
+        "34": "ePRC16K195X270",
+        "35": "ePRC8K260X368",
+        "40": "eJISB10",
+        "41": "eJISB9",
+        "42": "eJISB8",
+        "43": "eJISB7",
+        "44": "eJISB6",
+        "45": "eJISB5",
+        "46": "eJISB4",
+        "47": "eJISB3",
+        "48": "eJISB2",
+        "49": "eJISB1",
+        "50": "eJISB0",
+        "60": "eISOB10",
+        "61": "eISOB9",
+        "62": "eISOB8",
+        "63": "eISOB7",
+        "64": "eISOB6",
+        "65": "eISOB5",
+        "66": "eISOB4",
+        "67": "eISOB3",
+        "68": "eISOB2",
+        "69": "eISOB1",
+        "70": "eISOB0",
+        "71": "eJapansePostcardSingle",
+        "72": "eJapansePostcardDouble",
+        "73": "eISOA6Postcard",
+        "74": "eIndexCard4x6",
+        "75": "eIndexCard5x8",
+        "76": "ePhoto4x6",
+        "77": "eJapanesePostcardWithTab",
+        "78": "eIndexCard3x5",
+        "80": "eMonarch",
+        "81": "eCommercial10",
+        "82": "eCatalog",
+        "83": "eNo10Envelope",
+        "89": "ePRC16K184X260",
+        "90": "eInternationalDL",
+        "91": "eInternationalC5",
+        "92": "eInternationalC6",
+        "93": "eInternationalC4",
+        "100": "eInternationalB5",
+        "101": "eCustom",
+        "102": "eEnvelope9",
+        "108": "eCustomCard",
+        "109": "eUSEnvelopeA2",
+        "110": "eJapanseEnvLong3",
+        "111": "eJapanseEnvLong4",
+        "112": "eJapaneseEnv2",
+        "118": "ePhoto10x15",
+        "119": "ePhotoCabinet",
+        "121": "ePhotoLSizeCard",
+        "122": "eIndexCard5x7",
+        "123": "ePhotoESizeCard",
+        "124": "ePhotoKGSizeCard",
+        "125": "ePhoto2ESizeCard",
+        "126": "ePhoto2LSizeCard",
+        "257": "eUSExecutiveR",
+        "258": "eUSLetterR",
+        "273": "eROC16KR",
+        "280": "eISOandJISA6R",
+        "281": "eISOandJISA5R",
+        "282": "eISOandJISA4R",
+        "300": "eJISBR6R",
+        "301": "eJISB5R",
+        "302": "eStatementR",
+        "32764": "eAnyCustomSize",
+        "32765": "eAnySize",
+        "32766": "eCustomRoll",
+        "32767": "eUnknownMediaSize",
+        "65234": "eStatementWR",
+        "65235": "eJISB5WR",
+        "65254": "eISOandJISA4WR",
+        "65255": "eISOandJISA5WR",
+        "65278": "eUSLetterWR",
+        "65490": "eJISB4W",
+        "65491": "eJISB5W",
+        "65509": "eISOandJISA3W",
+        "65510": "eISOandJISA4W",
+        "65511": "eISOandJISA5W",
+        "65521": "eStatementW",
+        "65530": "eLedgerW",
+        "65534": "eUSLetterW"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      3
+    ]
+  },
+  "override-media-name": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      2
+    ]
+  },
+  "engine-media-modes-supported1": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "media-modes",
+      1
+    ]
+  },
+  "finisher-image-rotation": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-prt-eng",
+      31
+    ]
+  },
+  "current-job-parsing-id": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-being-parsed",
+      1
+    ]
+  },
+  "job-info-stage": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cSourceSubsystem",
+        "1": "cProcessingSubsystem",
+        "2": "cDestinationSubsystem"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      10
+    ]
+  },
+  "job-info-requested-originals": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      24
+    ]
+  },
+  "job-info-page-count-current-original": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      25
+    ]
+  },
+  "job-info-pages-in-original": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      26
+    ]
+  },
+  "job-info-printed-originals": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "job-info",
+      27
+    ]
+  },
+  "print-internal-page": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNotPrintingAnInternalPage",
+        "2": "ePrintingAnUnknownInternalPage",
+        "3": "eDeviceDemoPage1ConfigurationPage",
+        "4": "eDeviceDemoPage2",
+        "5": "eDeviceDemoPage3SpeedDialPage",
+        "6": "eDeviceDemoPage4ExtensiveDeviceInformation",
+        "7": "eDeviceDemoPage5ErrorLog",
+        "8": "eDeviceDemoPage6FileSystemDirectoryListing",
+        "9": "eDeviceDemoPage7MenuMap",
+        "10": "eDeviceUsagePage",
+        "11": "eDeviceDemoPage8BlockFaxList",
+        "12": "eDeviceDemoPage9FaxLogReport",
+        "13": "eServicePage",
+        "14": "eServicePageWarningLog",
+        "15": "eServicePageJamHistory",
+        "16": "eServicePageServiceSummary",
+        "17": "eServicePageServiceSettings",
+        "18": "eServicePagePM",
+        "100": "ePrintUsagePage",
+        "101": "eSuppliesPage",
+        "102": "eMediaPathUsagePage",
+        "103": "eSuppliesUsagePage",
+        "250": "eDeviceADFAdjustmentPages",
+        "251": "eDeviceColorRegistrationPage",
+        "252": "eDeviceAutoCleaningPage",
+        "253": "eDeviceCleaningPage",
+        "254": "eDevicePaperPathTest",
+        "255": "eDevicePageRegistrationPage",
+        "256": "ePrintQualityPages",
+        "257": "eHighVoltageTestPage",
+        "258": "eColorPaletteRGBPage",
+        "259": "eColorPaletteCMYKPage",
+        "260": "eDevicePageDiagnosticsPage",
+        "261": "eDevicePageStoredJobsPage",
+        "262": "eSWActivatedRibSmearCleanerPage",
+        "263": "eSWActivatedPickTireCleanerPage",
+        "264": "eXPSErrorPage",
+        "300": "ePCLDemoPage1ConfigurationPage",
+        "301": "ePCLDemoPage2",
+        "350": "ePCLFontList1",
+        "352": "ePCLFontList2",
+        "353": "ePCLXLFontList",
+        "400": "ePostScriptDemoPage1ConfigurationPage",
+        "401": "ePostScriptDemoPage2",
+        "450": "ePostScriptFontList1",
+        "451": "ePostScriptFontList2",
+        "500": "eEscPDemoPage1ConfigurationPage",
+        "501": "eEscPDemoPage2",
+        "550": "eEscPFontList1",
+        "551": "eEscPFontList2",
+        "600": "eEpsonDemoPage1ConfigurationPage",
+        "601": "eEpsonDemoPage2",
+        "650": "eEpsonFontList1",
+        "651": "eEpsonFontList2",
+        "700": "eIPDSDemoPage1ConfigurationPage",
+        "701": "eIPDSDemoPage2",
+        "750": "eIPDSFontList1",
+        "751": "eIPDSFontList2",
+        "800": "eHPGLDemoPage1ConfigurationPage",
+        "801": "eHPGLDemoPage2",
+        "850": "eHPGLFontList1",
+        "851": "eHPGLFontList2",
+        "900": "eHPGL2DemoPage1ConfigurationPage",
+        "901": "eHPGL2DemoPage2",
+        "950": "eHPGL2FontList1",
+        "951": "eHPGL2FontList2",
+        "1000": "eMarkingAgentTestPattern",
+        "1100": "eCalibrationNormalPage",
+        "1101": "eCalibrationPhotoPage",
+        "1102": "eColorCalibrationPage",
+        "1103": "eColorCalConfirmPage",
+        "1150": "ePenAlignmentPage",
+        "1151": "ePenAlignmentVerificationPage",
+        "1152": "ePrintSimplifiedAlignmentPage",
+        "1200": "eNetworkConfigPage",
+        "1201": "eNetworkConfigMultiLangPage",
+        "1202": "eWirelessNetworkTestPage",
+        "1300": "eFaxSelfTestShort",
+        "1301": "eFaxSelfTestPage",
+        "1302": "eFaxSelfTestExtended",
+        "1303": "ePDFEaterErrorPage",
+        "1304": "eFaxActivityLogPage",
+        "1305": "eFaxCallReportPage",
+        "1306": "eFaxCallReportOnEventPage",
+        "1307": "eBillingReportPage",
+        "1308": "eSpeedDialListReportPage",
+        "1309": "eBlockedFaxListReportPage",
+        "1310": "eT30TracerReportPage",
+        "1311": "eT30TracerReportOnEventPage",
+        "1400": "eDeviceShowMeHowPageClearJams",
+        "1401": "eDeviceShowMeHowPageLoadTrays",
+        "1402": "eDeviceShowMeHowPageLoadSpecialMedia",
+        "1403": "eDeviceShowMeHowPagePrintBothSides",
+        "1404": "eDeviceShowMeHowPageSupportedPaper",
+        "1405": "eDeviceShowMeHowPageMoreHelp",
+        "1406": "eDeviceShowMeHowHelpGuide",
+        "1407": "eAutomaticLinefeedCalibration",
+        "1408": "eAutomaticColorCalibration",
+        "1409": "ePrintQualityDiagnosticPage",
+        "1410": "eCurrentSettingsPage",
+        "1411": "eDeviceShowMeHowPageLoadMedia4x6",
+        "1412": "eColorUsageLog"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "test",
+      2
+    ]
+  },
+  "instant-lamp-mode": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-scanner",
+      15
+    ]
+  },
+  "adf-description": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      102
+    ]
+  },
+  "adf-maintenance-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      109
+    ]
+  },
+  "adf-maintenance-current-state": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "0": "cMaintenanceRecommended"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      108
+    ]
+  },
+  "adf-maximum-capacity": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      103
+    ]
+  },
+  "adf-measurement-units": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "2": "eOther",
+        "5": "ePages"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      104
+    ]
+  },
+  "adf-model-number": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      101
+    ]
+  },
+  "adf-pages-since-maintenance": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      110
+    ]
+  },
+  "consumable-pages-since-replacement": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "consumables",
+      18
+    ]
+  },
+  "consumable-replacement-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "consumables",
+      16
+    ]
+  },
+  "scanned-media-total-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "scanned-media-usage",
+      5
+    ]
+  },
+  "scanned-media-simplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "scanned-media-usage",
+      1
+    ]
+  },
+  "scanned-media-simplex-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "scanned-media-usage",
+      2
+    ]
+  },
+  "scanned-media-duplex-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "scanned-media-usage",
+      3
+    ]
+  },
+  "scanned-media-duplex-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "scanned-media-usage",
+      4
+    ]
+  },
+  "usage-scanner-total-charge": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "scanner-accounting",
+      2
+    ]
+  },
+  "scan-to-folder-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      89
+    ]
+  },
+  "scanner-accessory-send-job-scan-count": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "settings-scanner",
+      62
+    ]
+  },
+  "email-service-operational": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eNonOperational",
+        "2": "eOperational"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-system",
+      111
+    ]
+  },
+  "fax-billing-code-enabled": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-fax-proc-sub",
+      16
+    ]
+  },
+  "fax-billing-code": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-fax-proc-sub",
+      18
+    ]
+  },
+  "fax-billing-code-minlength": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-fax-proc-sub",
+      17
+    ]
+  },
+  "pcfax-send-enabled": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER",
+      "values": {
+        "1": "eDisabled",
+        "2": "eEnabled"
+      }
+    },
+    "access": "read-only",
+    "index": null,
+    "value": [
+      "status-fax-proc-sub",
+      13
+    ]
+  },
+  "background-status-msg-line1-part1": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "background-message1",
+      1
+    ]
+  },
+  "background-status-msg-line2-part1": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "OCTET STRING"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "background-message2",
+      1
+    ]
+  },
+  "control-panel-key-press": {
+    "tp": "OBJECT-TYPE",
+    "syntax": {
+      "tp": "INTEGER"
+    },
+    "access": "read-write",
+    "index": null,
+    "value": [
+      "status-system",
+      66
+    ]
+  }
+}
