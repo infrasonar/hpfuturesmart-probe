@@ -1,6 +1,7 @@
 import time
 from asyncsnmplib.mib.mib_index import MIB_INDEX
 from libprobe.asset import Asset
+from libprobe.check import Check
 from libprobe.exceptions import CheckException
 from ..snmpclient import get_snmp_client
 from ..snmpquery import snmpquery
@@ -13,6 +14,7 @@ QUERIES = (
     (MIB_INDEX['FUTURESMART-MIB']['status-system'], False),
 )
 
+
 def fmt_install_date(value: str):
     try:
         return time.strptime(value[:8], '%Y%m%d%H%M')
@@ -20,28 +22,28 @@ def fmt_install_date(value: str):
         return
 
 
-async def check_device(
-        asset: Asset,
-        asset_config: dict,
-        check_config: dict) -> dict:
+class CheckDevice(Check):
+    key = 'device'
 
-    snmp = get_snmp_client(asset, asset_config, check_config)
-    state = await snmpquery(snmp, QUERIES)
+    @staticmethod
+    async def run(asset: Asset, local_config: dict, config: dict) -> dict:
 
-    if not any(state.values()):
-        raise CheckException('no data found')
+        snmp = get_snmp_client(asset, local_config, config)
+        state = await snmpquery(snmp, QUERIES)
 
-    for item in state.get('printer-accounting', []):
-        item.pop('print-meter-equivalent-impression-count', None)
-        item.pop('usage-instructions-line1', None)
-        item.pop('usage-instructions-line2', None)
-        item.pop('usage-instructions-line3', None)
-        item.pop('usage-instructions-line4', None)
+        if not any(state.values()):
+            raise CheckException('no data found')
 
-    for item in state.get('status-system', []):
-        install_date = item.get('install_date')
-        if install_date is not None:
-            item['install_date'] = fmt_install_date(install_date)
+        for item in state.get('printer-accounting', []):
+            item.pop('print-meter-equivalent-impression-count', None)
+            item.pop('usage-instructions-line1', None)
+            item.pop('usage-instructions-line2', None)
+            item.pop('usage-instructions-line3', None)
+            item.pop('usage-instructions-line4', None)
 
+        for item in state.get('status-system', []):
+            install_date = item.get('install_date')
+            if install_date is not None:
+                item['install_date'] = fmt_install_date(install_date)
 
-    return state
+        return state
