@@ -24,6 +24,7 @@ def fmt_install_date(value: str):
 
 class CheckDevice(Check):
     key = 'device'
+    unchanged_eol = 0
 
     @staticmethod
     async def run(asset: Asset, local_config: dict, config: dict) -> dict:
